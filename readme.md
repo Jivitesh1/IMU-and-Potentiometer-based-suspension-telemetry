@@ -15,9 +15,9 @@ The primary objective of this project is to move away from subjective suspension
 To keep the documentation modular and easy to read, the project details are divided into the following sections:
 * 📂 **[Hardware Details](./Hardware/Component%20overview.md):** Information on the RC telelever/trailing-swingarm platform, sensor mounting specifications (MPU-6050 and linear potentiometer), and damper variables.
 * 📂 **[Test-rig Details](./Hardware/Test%20rig%20details.md):** Information on the RC telelever/trailing-swingarm platform, sensor mounting specifications (MPU-6050 and linear potentiometer), and damper variables.
-* 📂 **[Software & Telemetry Overview](./Software/Software%20overview.md):** Details on the ESP32 data acquisition parameters (250Hz sample rate, 500k baud UART) and data formatting.
-* 📂 **[Signal Processing & Data Correction](./Software/Signal%20processing%20and%20filtering.md):** Explanation of the local ESP32 filtering pipeline, including hardware over-sampling, EMA low-pass filtering, and absolute deadband application.
-* 📂 **[Terrain & Impact Testing Methodology](./Terrain%20Tests/Terrain%20and%20Impact%20Testing%20Method.md):** Breakdown of the physical testing, including controlled drop tests and scaled terrain tracking (gravel, speed breakers, ruts).
+* 📂 **[Software & Telemetry Overview](./Software/software%20overview.md):** Details on the ESP32 data acquisition parameters (250Hz sample rate, 500k baud UART) and data formatting.
+* 📂 **[Signal Processing & Data Correction](./Software/Signal%20Processing%20and%20filtering.md):** Explanation of the local ESP32 filtering pipeline, including hardware over-sampling, EMA low-pass filtering, and absolute deadband application.
+* 📂 **[Terrain & Impact Testing Methodology](./Terrain%20tests/Terrain%20and%20Impact%20Testing%20Method.md):** Breakdown of the physical testing, including controlled drop tests and scaled terrain tracking (gravel, speed breakers, ruts).
 * 📂 **[Application-Specific Tuning Profiles](./Results/Application-Specific%20Tuning.md):** How the scaled data extrapolates to full-size vehicle tuning (motorcycles, track cars, off-road rigs).
 
 ## Quick Start / Usage
