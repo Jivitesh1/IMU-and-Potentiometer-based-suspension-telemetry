@@ -1,6 +1,6 @@
 # IMU and Potentiometer Based Suspension Analysis
 
-![Test Rig Photo](./Images/hero_image.jpg) *(Note: Add a photo of your test rig here)*
+![Test Rig Photo](./Images/project%20image.jpg)
 
 ## Project Overview
 This repository contains the hardware specifications, ESP32 C++ firmware, signal processing methodology, and telemetry results for a custom suspension analysis system. 
@@ -13,13 +13,12 @@ The primary objective of this project is to move away from subjective suspension
 
 ## Repository Structure
 To keep the documentation modular and easy to read, the project details are divided into the following sections:
-
-* 📂 **[Hardware Details](./Component overview.md):** Information on the RC telelever/trailing-swingarm platform, sensor mounting specifications (MPU-6050 and linear potentiometer), and damper variables.
-* 📂 **[Test-rig Details](./Test rig details.md):** Information on the RC telelever/trailing-swingarm platform, sensor mounting specifications (MPU-6050 and linear potentiometer), and damper variables.
-* 📂 **[Software & Telemetry Overview](./Software overview.md):** Details on the ESP32 data acquisition parameters (250Hz sample rate, 500k baud UART) and data formatting.
-* 📂 **[Signal Processing & Data Correction](./Signal processing and filtering.md):** Explanation of the local ESP32 filtering pipeline, including hardware over-sampling, EMA low-pass filtering, and absolute deadband application.
-* 📂 **[Terrain & Impact Testing Methodology](./Terrain and Impact Testing Method.md):** Breakdown of the physical testing, including controlled drop tests and scaled terrain tracking (gravel, speed breakers, ruts).
-* 📂 **[Application-Specific Tuning Profiles](./Application-Specific Tuning.md):** How the scaled data extrapolates to full-size vehicle tuning (motorcycles, track cars, off-road rigs).
+* 📂 **[Hardware Details](./Component%20overview.md):** Information on the RC telelever/trailing-swingarm platform, sensor mounting specifications (MPU-6050 and linear potentiometer), and damper variables.
+* 📂 **[Test-rig Details](./Test%20rig%20details.md):** Information on the RC telelever/trailing-swingarm platform, sensor mounting specifications (MPU-6050 and linear potentiometer), and damper variables.
+* 📂 **[Software & Telemetry Overview](./Software%20overview.md):** Details on the ESP32 data acquisition parameters (250Hz sample rate, 500k baud UART) and data formatting.
+* 📂 **[Signal Processing & Data Correction](./Signal%20processing%20and%20filtering.md):** Explanation of the local ESP32 filtering pipeline, including hardware over-sampling, EMA low-pass filtering, and absolute deadband application.
+* 📂 **[Terrain & Impact Testing Methodology](./Terrain%20and%20Impact%20Testing%20Method.md):** Breakdown of the physical testing, including controlled drop tests and scaled terrain tracking (gravel, speed breakers, ruts).
+* 📂 **[Application-Specific Tuning Profiles](./Application-Specific%20Tuning.md):** How the scaled data extrapolates to full-size vehicle tuning (motorcycles, track cars, off-road rigs).
 
 ## Quick Start / Usage
 1. Flash the ESP32 with the firmware located in `/Code/ESP32_Firmware.ino`.
