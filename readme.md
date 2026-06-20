@@ -14,12 +14,12 @@ The primary objective of this project is to move away from subjective suspension
 ## Repository Structure
 To keep the documentation modular and easy to read, the project details are divided into the following sections:
 
-* 📂 **[Hardware & Test Rig Details](./Hardware.md):** Information on the RC telelever/trailing-swingarm platform, sensor mounting specifications (MPU-6050 and linear potentiometer), and damper variables.
-* 📂 **[Software & Telemetry Overview](./Software_Overview.md):** Details on the ESP32 data acquisition parameters (250Hz sample rate, 500k baud UART) and data formatting.
-* 📂 **[Signal Processing & Data Correction](./Signal_Processing.md):** Explanation of the local ESP32 filtering pipeline, including hardware over-sampling, EMA low-pass filtering, and absolute deadband application.
-* 📂 **[Terrain & Impact Testing Methodology](./Terrain_Tests.md):** Breakdown of the physical testing, including controlled drop tests and scaled terrain tracking (gravel, speed breakers, ruts).
-* 📂 **[Suspension Velocity Histograms](./Histograms.md):** Visual data analysis comparing underdamped, balanced, and overdamped configurations.
-* 📂 **[Application-Specific Tuning Profiles](./Application_Profiles.md):** How the scaled data extrapolates to full-size vehicle tuning (motorcycles, track cars, off-road rigs).
+* 📂 **[Hardware Details](./Component overview.md):** Information on the RC telelever/trailing-swingarm platform, sensor mounting specifications (MPU-6050 and linear potentiometer), and damper variables.
+* 📂 **[Test-rig Details](./Test rig details.md):** Information on the RC telelever/trailing-swingarm platform, sensor mounting specifications (MPU-6050 and linear potentiometer), and damper variables.
+* 📂 **[Software & Telemetry Overview](./Software overview.md):** Details on the ESP32 data acquisition parameters (250Hz sample rate, 500k baud UART) and data formatting.
+* 📂 **[Signal Processing & Data Correction](./Signal processing and filtering.md):** Explanation of the local ESP32 filtering pipeline, including hardware over-sampling, EMA low-pass filtering, and absolute deadband application.
+* 📂 **[Terrain & Impact Testing Methodology](./Terrain and Impact Testing Method.md):** Breakdown of the physical testing, including controlled drop tests and scaled terrain tracking (gravel, speed breakers, ruts).
+* 📂 **[Application-Specific Tuning Profiles](./Application-Specific Tuning.md):** How the scaled data extrapolates to full-size vehicle tuning (motorcycles, track cars, off-road rigs).
 
 ## Quick Start / Usage
 1. Flash the ESP32 with the firmware located in `/Code/ESP32_Firmware.ino`.
