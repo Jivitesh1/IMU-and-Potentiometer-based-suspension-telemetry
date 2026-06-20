@@ -3,7 +3,7 @@
 Velocity histograms are the primary method used in this project to objectively evaluate damping behavior. They visualize the amount of time the suspension spends moving at specific shaft speeds (mm/s).
 
 ## Setup 1: Underdamped
-![Setup 1 Histogram](../Images/setup_1.png)
+![Setup 1 Histogram](../Images/Setup_1.png)
 * **Characteristics:** Wide Gaussian distribution with long tails. 
 * **Analysis:** The suspension moves freely, tracking terrain exceptionally well but lacking the high-speed damping required to prevent bottoming out. The chassis exhibits excessive wallow and post-impact bouncing.
 
